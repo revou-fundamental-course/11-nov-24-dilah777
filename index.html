@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Trusted Travel Agent</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="https://placecats.com/800/400" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#package">Our Package</a></li>
+        <li><a href="#contact">Call Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section id="home" class="banner">
+    <h1>Your Trusted Travel Agent's</h1>
+    <div class="banner-container">
+      <div class="slider">
+        <img src="https://placecats.com/800/400" alt="Banner 1">
+        <img src="https://placecats.com/800/400" alt="Banner 2">
+        <img src="https://placecats.com/800/400" alt="Banner 3">
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="interest">What are you interested in?</label>
+          <select id="interest" name="interest" required>
+            <option value="">Select an option</option>
+            <option value="package1">Package 1</option>
+            <option value="package2">Package 2</option>
+            <option value="other">Other</option>
+          </select>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Package Section -->
+  <section id="package" class="package">
+    <h2>Our Packages</h2>
+    <p>Explore the world with our exciting travel options!</p>
+  </section>
+
+  <!-- Call Us Section -->
+  <section id="contact" class="call-us">
+    <h2>Ready to Travel?</h2>
+    <p>Contact us for more details!</p>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
